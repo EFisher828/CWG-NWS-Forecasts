@@ -165,7 +165,7 @@ def day1():
 
     fig.text(0.5,0.94,'National Weather Service',ha='center',**font2)
     fig.text(0.3,0.88,'High',ha='center',**font3)
-    fig.text(0.335,0.88,'/',ha='center',**font2)
+    fig.text(0.3375,0.88,'/',ha='center',**font2)
     fig.text(0.37,0.88,'Low',ha='center',**font4)
     fig.text(0.552,0.88,'Temperature Forecast',ha='center',**font2)
     fig.text(0.25,0.22,ForecastDay,ha='center',**font5)
@@ -330,14 +330,14 @@ def day2():
     newax.axis('off')
 
     fig.text(0.5,0.94,'National Weather Service',ha='center',**font2)
-    fig.text(0.35,0.88,'High',ha='center',**font3)
-    fig.text(0.38,0.88,'/',ha='center',**font2)
-    fig.text(0.41,0.88,'Low',ha='center',**font4)
+    fig.text(0.3,0.88,'High',ha='center',**font3)
+    fig.text(0.3375,0.88,'/',ha='center',**font2)
+    fig.text(0.37,0.88,'Low',ha='center',**font4)
     fig.text(0.552,0.88,'Temperature Forecast',ha='center',**font2)
     fig.text(0.25,0.22,ForecastDay,ha='center',**font5)
     fig.text(0.25,0.18,ForecastDate,ha='center',**font5)
 
-    plt.savefig('output/NWSForecastDay2.png',bbox_inches='tight',dpi=300)
+    plt.savefig('output/NWSForecast2.png',bbox_inches='tight',dpi=300)
     
 day2()
 
@@ -496,9 +496,9 @@ def day3():
     newax.axis('off')
 
     fig.text(0.5,0.94,'National Weather Service',ha='center',**font2)
-    fig.text(0.35,0.88,'High',ha='center',**font3)
-    fig.text(0.38,0.88,'/',ha='center',**font2)
-    fig.text(0.41,0.88,'Low',ha='center',**font4)
+    fig.text(0.3,0.88,'High',ha='center',**font3)
+    fig.text(0.3375,0.88,'/',ha='center',**font2)
+    fig.text(0.37,0.88,'Low',ha='center',**font4)
     fig.text(0.552,0.88,'Temperature Forecast',ha='center',**font2)
     fig.text(0.25,0.22,ForecastDay,ha='center',**font5)
     fig.text(0.25,0.18,ForecastDate,ha='center',**font5)
